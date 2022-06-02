@@ -1,4 +1,8 @@
 import pathlib
 
+path = pathlib.Path("hello.md")
+
 print("OVERSKRIFT")
-print(pathlib.Path("hello.md").read_text())
+print(path.read_text())
+
+# doing something
