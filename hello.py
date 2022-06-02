@@ -1,6 +1,7 @@
 import pathlib
 
 print("Hello Git")
-print(pathlib.Path("hello.md").read_text())
+path = pathlib.Path("hello.md")
+print(path.read_text())
 
 # doing something
