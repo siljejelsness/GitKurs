@@ -1,4 +1,4 @@
 import pathlib
 
-print("Hello Git")
+print("OVERSKRIFT")
 print(pathlib.Path("hello.md").read_text())
